@@ -1,0 +1,30 @@
+﻿/*Filename: Assign02.css
+Authors Name: Venkata Kodithala
+Student ID: 300920874
+Creation Date: 2016-11-01*/
+
+.TitleStyle {
+    font-size:80px;
+    color:blue;
+    font-style:oblique;
+    font-variant-position:super;
+}
+
+.SurveyTitle {
+    font-size:50px;
+    color:firebrick;
+    font-family:'Courier New';
+}
+
+.SurveyImage {
+    padding-top:30px;
+    font-size:medium;
+   }
+
+.SurveyText {
+    padding-top: 20px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    color:black;
+}   
