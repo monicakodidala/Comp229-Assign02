@@ -22,9 +22,13 @@ Creation Date: 2016-11-01*/
    }
 
 .SurveyText {
-    padding-top: 20px;
+    padding-top: 21px;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
     color:black;
 }   
+
+.NameText {
+
+}
