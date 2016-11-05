@@ -11,8 +11,8 @@ namespace Comp229_Assign02
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.Page.Title = "SurveyPage";
-            SurveyPage.Text = "Welcome to the Survey Page";
+            this.Page.Title = "Survey";
+            SurveyPage.Text = "Welcome to Customer Satisfaction Survey!!";
         }
 
         protected void TYpage_Click(object sender, EventArgs e)

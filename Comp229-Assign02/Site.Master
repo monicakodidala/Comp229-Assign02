@@ -49,7 +49,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand" runat="server" href="~/">MK Shoes</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -66,8 +66,13 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Disclaimer</p>
-            
+                <%--Microsoft Disclaimer is used here--%>
+                <asp:HyperLink ID="hlDisclaimer" runat="server" NavigateUrl="https://technet.microsoft.com/en-us/library/dd239266.aspx" Target="_blank" >Disclaimer</asp:HyperLink>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <%--Aldo shoes Privacy Statement is used since my product is shoe--%>
+                <asp:HyperLink ID="hlPrivacyStatement" runat="server" NavigateUrl="http://www.aldoshoes.com/ca/en/privacyPolicy" Target="_blank" >Privacy Policy</asp:HyperLink>
             </footer>
         </div>
     </form>

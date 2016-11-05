@@ -58,6 +58,15 @@ namespace Comp229_Assign02 {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator Emailrequired;
         
         /// <summary>
+        /// Emailrequired1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator Emailrequired1;
+        
+        /// <summary>
         /// txtPhNum control.
         /// </summary>
         /// <remarks>
@@ -76,6 +85,15 @@ namespace Comp229_Assign02 {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator PNrequired;
         
         /// <summary>
+        /// PNrequired1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator PNrequired1;
+        
+        /// <summary>
         /// rbCustSat control.
         /// </summary>
         /// <remarks>
@@ -91,16 +109,7 @@ namespace Comp229_Assign02 {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList YN;
-        
-        /// <summary>
-        /// ButSub control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButSub;
+        protected global::System.Web.UI.WebControls.DropDownList YN;
         
         /// <summary>
         /// valsum control.

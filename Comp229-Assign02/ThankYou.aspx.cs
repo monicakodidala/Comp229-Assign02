@@ -11,6 +11,9 @@ namespace Comp229_Assign02
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            this.Page.Title = "Thank You For Completing the Survey!!!";
+            ThankYouPage.Text = "Thank You For Completing the Survey!!!"; 
+
             name.Text = Session["Name"].ToString();
             email.Text = Session["Email"].ToString();
             phone.Text = Session["PhoneNumber"].ToString();

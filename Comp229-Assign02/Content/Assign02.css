@@ -16,6 +16,12 @@ Creation Date: 2016-11-01*/
     font-family:'Courier New';
 }
 
+.ThankYouTitle {
+    font-size:50px;
+    color:firebrick;
+    font-family:'Courier New';
+}
+
 .SurveyImage {
     padding-top:30px;
     font-size:medium;
@@ -37,4 +43,8 @@ Creation Date: 2016-11-01*/
 }
 .PhoneNumberTxt{
     margin-bottom:20px;
+}
+.SubmitButton{
+    margin-top:20px;
+    
 }
