@@ -46,7 +46,7 @@ namespace Comp229_Assign02 {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtEmail;
         
         /// <summary>
         /// Emailrequired control.
@@ -110,5 +110,14 @@ namespace Comp229_Assign02 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ValidationSummary valsum;
+        
+        /// <summary>
+        /// TYpage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button TYpage;
     }
 }

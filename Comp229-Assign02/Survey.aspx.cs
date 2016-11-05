@@ -14,5 +14,17 @@ namespace Comp229_Assign02
             this.Page.Title = "SurveyPage";
             SurveyPage.Text = "Welcome to the Survey Page";
         }
+
+        protected void TYpage_Click(object sender, EventArgs e)
+        {
+            Session["Name"] = txtName.Value;
+            Session["Email"] = txtEmail.Value;
+            Session["PhoneNumber"] = txtPhNum.Value;
+            Session["CustSat"] = rbCustSat.SelectedValue;
+            Session["YesNo"] = YN.SelectedValue;
+            Response.Redirect("~/ThankYou.aspx");
+
+        }
+
     }
 }

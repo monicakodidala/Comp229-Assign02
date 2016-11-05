@@ -29,6 +29,12 @@ Creation Date: 2016-11-01*/
     color:black;
 }   
 
-.NameText {
-
+.NameTextBox {
+    margin-bottom:20px;
+   }
+.EmailTextBox{
+   margin-bottom:20px;
+}
+.PhoneNumberTxt{
+    margin-bottom:20px;
 }

@@ -10,7 +10,7 @@
     <!--Declaring Name Text Box with RequiredFieldValidator and Error Message-->
 
     <div>
-        <input type="text" placeholder="Name" id="txtName" runat="server"  />
+        <input type="text" placeholder="Name" id="txtName" runat="server" class="NameTextBox"  />
 
     <asp:RequiredFieldValidator ID="namerequired" runat="server" ValidationGroup="check" ValidateRequestMode="Enabled"
         ControlToValidate="txtName"
@@ -23,10 +23,10 @@
      <!--Declaring EmailID Text Box with RegularExpressionValidator and Error Message-->
 
     <div>
-        <%--<input type="text" placeholder="Email ID" id="txtEmail" runat="server" />--%>
-        <asp:TextBox id="txtEmail" runat="server"  />
-
-    <asp:RegularExpressionValidator ID="Emailrequired" runat="server" ValidationGroup="check"
+        <input type="text" placeholder="Email ID" id="txtEmail" runat="server" />
+        
+        
+    <asp:RegularExpressionValidator ID="Emailrequired" runat="server" CssClass="EmailTextBox" ValidationGroup="check"
         ControlToValidate="txtEmail"
         ValidationExpression="^\S+@\S+\.\S+$"
         ErrorMessage="Please Enter a valid Email ID"
@@ -37,7 +37,7 @@
  <!--Declaring Phone Number Text Box with RequiredFieldValidator and Error Message-->
 
     <div>
-        <input type="text" placeholder="(000)-000-0000" id="txtPhNum" runat="server" />
+        <input type="text" placeholder="(000)-000-0000" id="txtPhNum" runat="server" class="PhoneNumberTxt" />
 
     <asp:RequiredFieldValidator ID="PNrequired" runat="server" ValidationGroup="check"
         ControlToValidate="txtPhNum"
@@ -56,10 +56,10 @@
     <asp:RadioButton id="NotSatisfied" text="Not Satisfied" runat="server"  />--%>
 
     <asp:RadioButtonList id="rbCustSat" runat="server">
-        <asp:ListItem Text="Very Satisfied" Value="1" Selected="True"/>
-        <asp:ListItem Text="Satisfied" Value="2" />
-        <asp:ListItem Text="Somewhat Satisfied" Value="3" />
-        <asp:ListItem Text="Not Satisfied" Value="4" />
+        <asp:ListItem Text="Very Satisfied" Value="Very Satisfied" Selected="True"/>
+        <asp:ListItem Text="Satisfied" Value="Satisfied" />
+        <asp:ListItem Text="Somewhat Satisfied" Value="Somewhat Satisfied" />
+        <asp:ListItem Text="Not Satisfied" Value="Not Satisfied" />
     </asp:RadioButtonList>
 </div>
 
@@ -67,7 +67,7 @@
     <h4>Would you recommend our brand to your friend?</h4>
     <asp:CheckBoxList ID="YN" runat="server">
         <asp:ListItem Text="Yes" Value="Yes"></asp:ListItem>
-        <asp:ListItem Text="No" Value="Yes"></asp:ListItem>
+        <asp:ListItem Text="No" Value="No"></asp:ListItem>
     </asp:CheckBoxList>
 
 </div>
@@ -79,9 +79,12 @@
         <%--<input type="button" title="Send" value="Send" class="SendButton" id="ButSub" ValidationGroup="check" onclick="buttonClicked();" />--%>
         <asp:Button id="ButSub" Text="Send" runat="server" ValidationGroup="check"/>
    <!--Validation Summary -->
-        <asp:ValidationSummary ID="valsum" DisplayMode="BulletList" runat="server" ShowSummary="true" />
+        <asp:ValidationSummary ID="valsum" DisplayMode="BulletList" runat="server" ShowSummary="true"  />
     </div>
-    
+   
+    <div>
+        <asp:Button ID="TYpage" BackColor="Coral" Text="Click to Complete Survey" runat="server" OnClick="TYpage_Click"/>
+    </div>
   
 
    
